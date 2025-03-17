@@ -1,0 +1,66 @@
+// Effect Syntax Guide: https://docs.cocos.com/creator/manual/zh/shader/index.html
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert 
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: grey }
+        mainColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+}%
+
+CCProgram unlit-vs %{
+
+    precision highp float;
+ #include <legacy/input>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+  #include <legacy/input>
+  #include <legacy/fog-vs>
+
+    out vec2 v_uv;
+
+  vec4 vert () {
+    vec4 position;
+    CCVertInput(position);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    v_uv = a_texCoord;
+
+    return cc_matProj * (cc_matView * matWorld) * position;
+  }
+
+}%
+
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+
+  in vec2 v_uv;
+
+  #if USE_TEXTURE
+     uniform sampler2D mainTexture;
+  #endif
+
+  uniform Constant {
+    vec4 mainColor;
+  };
+
+  vec4 frag () {
+    vec4 col = mainColor;
+    #if USE_TEXTURE
+        vec4 tex = texture(mainTexture, v_uv);
+        if (tex.a > 0.5)
+            col = tex;
+    #endif
+  return col;
+    // return CCFragOutput(col);
+  }
+}%

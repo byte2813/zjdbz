@@ -1,0 +1,51 @@
+{
+  "builder": {
+    "taskOptionsMap": {
+      "1700558287125": {
+        "startSceneAssetBundle": false,
+        "orientation": "portrait",
+        "appid": "wx09f287cbaf88becf",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "wasm": "js",
+        "enabelWebGL2": "off",
+        "__version__": "1.0.0",
+        "highPerformanceMode": false
+      },
+      "1700639063768": {
+        "startSceneAssetBundle": false,
+        "orientation": "portrait",
+        "appid": "wx6ac3f5090a6b99c5",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "wasm": "js",
+        "enabelWebGL2": "off",
+        "__version__": "1.0.0"
+      }
+    },
+    "__version__": "1.3.7",
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "wechatgameputaoya",
+      "mainBundleCompressionType": "merge_all_json",
+      "platform": "wechatgame",
+      "name": "wx",
+      "mainBundleIsRemote": false,
+      "replaceSplashScreen": true
+    },
+    "options": {
+      "wechatgame": {
+        "startSceneAssetBundle": false,
+        "orientation": "portrait",
+        "appid": "wx09f287cbaf88becf",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "wasm": "js",
+        "enabelWebGL2": "off",
+        "__version__": "1.0.0",
+        "highPerformanceMode": false
+      }
+    }
+  },
+  "__version__": "1.0.4"
+}

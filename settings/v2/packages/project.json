@@ -1,0 +1,29 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "highQuality": false
+  },
+  "layer": [
+    {
+      "name": "screenshot",
+      "value": 1
+    },
+    {
+      "name": "scene",
+      "value": 2
+    }
+  ],
+  "__version__": "1.0.6",
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "script": {
+    "preserveSymlinks": true
+  },
+  "custom_joint_texture_layouts": []
+}

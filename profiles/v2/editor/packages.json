@@ -1,0 +1,33 @@
+{
+  "disable-packages": {
+    "D:\\desktop\\project\\fish-eating-fish\\extensions\\level_export": {
+      "name": "level_export",
+      "time": 1701510540332
+    },
+    "D:\\desktop\\project\\fish-eating-fish\\extensions\\csv_to_json": null,
+    "D:\\desktop\\project\\fighting-zombies\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1702545158221
+    },
+    "D:\\desktop\\project\\gather-ten\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1704192316082
+    },
+    "D:\\desktop\\project\\save-this-pig\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1704260859209
+    },
+    "D:\\desktop\\project\\salted-fish-run-quickly\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1704272988703
+    },
+    "D:\\desktop\\project\\arrow-cancellation-1\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1704354057571
+    },
+    "D:\\desktop\\project\\arrow-cancellation\\extensions\\cocos-service": {
+      "name": "cocos-service",
+      "time": 1707030094185
+    }
+  }
+}

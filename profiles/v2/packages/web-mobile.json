@@ -1,0 +1,32 @@
+{
+  "builder": {
+    "taskOptionsMap": {
+      "1701765212154": {
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.0",
+        "cullEngineAsmJsModule": false
+      }
+    },
+    "__version__": "1.3.7",
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-mobile",
+      "mainBundleCompressionType": "merge_all_json",
+      "platform": "web-mobile",
+      "replaceSplashScreen": true,
+      "useSplashScreen": false
+    },
+    "options": {
+      "web-mobile": {
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    }
+  },
+  "__version__": "1.0.1"
+}

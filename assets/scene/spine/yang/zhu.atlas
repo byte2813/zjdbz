@@ -1,0 +1,90 @@
+
+zhu.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 506, 36
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: false
+  xy: 598, 52
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: false
+  xy: 620, 85
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+jiao3
+  rotate: false
+  xy: 598, 85
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+jiao4
+  rotate: true
+  xy: 31, 7
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 290, 29
+  size: 87, 133
+  orig: 87, 133
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 2
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+wjx
+  rotate: false
+  xy: 506, 49
+  size: 90, 67
+  orig: 90, 67
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 425, 35
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+zhenyan
+  rotate: false
+  xy: 64, 18
+  size: 32, 9
+  orig: 32, 9
+  offset: 0, 0
+  index: -1
+zhushadow
+  rotate: true
+  xy: 2, 29
+  size: 87, 142
+  orig: 87, 142
+  offset: 0, 0
+  index: -1
+zhushadow2
+  rotate: true
+  xy: 146, 29
+  size: 87, 142
+  orig: 87, 142
+  offset: 0, 0
+  index: -1

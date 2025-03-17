@@ -1,0 +1,48 @@
+{
+  "builder": {
+    "taskOptionsMap": {
+      "1700623814477": {
+        "startSceneAssetBundle": false,
+        "package": "com.jyxyb.nearme.gamecenter",
+        "icon": "/Users/hooper/Desktop/project/aileyou/硬币排序/icon/icon4.jpg",
+        "versionName": "1.0.1",
+        "versionCode": "2",
+        "minPlatformVersion": 1095,
+        "deviceOrientation": "portrait",
+        "logLevel": "log",
+        "useDebugKey": false,
+        "privatePemPath": "/Users/hooper/Desktop/project/super-decompression-tube/pem/private.pem",
+        "certificatePemPath": "/Users/hooper/Desktop/project/super-decompression-tube/pem/certificate.pem",
+        "separateEngine": false,
+        "__version__": "1.0.0"
+      }
+    },
+    "__version__": "1.3.7",
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "oppo-mini-game",
+      "mainBundleCompressionType": "merge_all_json",
+      "platform": "oppo-mini-game",
+      "name": "解压消硬币",
+      "replaceSplashScreen": true
+    },
+    "options": {
+      "oppo-mini-game": {
+        "startSceneAssetBundle": false,
+        "package": "com.jyxyb.nearme.gamecenter",
+        "icon": "/Users/hooper/Desktop/project/aileyou/硬币排序/icon/icon4.jpg",
+        "versionName": "1.0.1",
+        "versionCode": "2",
+        "minPlatformVersion": 1095,
+        "deviceOrientation": "portrait",
+        "logLevel": "log",
+        "useDebugKey": false,
+        "privatePemPath": "/Users/hooper/Desktop/project/super-decompression-tube/pem/private.pem",
+        "certificatePemPath": "/Users/hooper/Desktop/project/super-decompression-tube/pem/certificate.pem",
+        "separateEngine": false,
+        "__version__": "1.0.1"
+      }
+    }
+  },
+  "__version__": "1.0.3"
+}
